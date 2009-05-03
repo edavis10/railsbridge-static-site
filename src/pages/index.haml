@@ -38,13 +38,23 @@
     %p To succeed, we need your help! Here's what you can do to be a part of the RailsBridge vision:
 
     %ul
-      %li Join the <a href='http://groups.google.com/group/railsbridge'>Mailing List</a>
+      %li Join the <a href='http://groups.google.com/group/railsbridge'>Google Group</a>
       %li Hang with us in the #railsbridge IRC channel on <a href="http://freenode.net/">Freenode</a>
       %li Help out with a current project
       %li Propose new projects
       %li Follow us on <a href="http://twitter.com/railsbridge>Twitter</a>
       %li Work to create the community you want
   
+    %p &nbsp;
+    
+    %form{ :action => "http://groups.google.com/group/railsbridge/boxsubscribe" }
+      %input{ :type => "hidden", :name => "hl", :value => "en" }
+      %h4 Subscribe to the RailsBridge Group at Google
+      %p Email address:
+      %input{ :type => "text", :name => "email", :size => 35 }
+      %input{ :type => "submit", :name => "sub", :value => "Subscribe"}
+
+
   .clear
 
   #bottom
