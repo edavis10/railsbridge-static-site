@@ -1,12 +1,15 @@
 body {
   font-family: Verdana;
-  font-size: 10pt; }
+  font-size: 10pt;
+  background-color: #E7E7E7; }
 
 #container {
   width: 720px;
   position: relative;
   left: 50%;
-  margin-left: -360px; }
+  margin-left: -360px;
+  padding: 0 25px;
+  background: url(/images/bg.gif) no-repeat; }
 
 #top {
   text-align: center; }
