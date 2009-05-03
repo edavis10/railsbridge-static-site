@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana;
+  font-size: 10pt; }
+
+#container {
+  width: 720px;
+  position: relative;
+  left: 50%;
+  margin-left: -360px; }
+
+#top {
+  text-align: center; }
+  #top ul {
+    text-align: left; }
+
+#left {
+  width: 340px;
+  float: left; }
+
+#right {
+  width: 340px;
+  float: right; }
+
+
+.clear {
+  clear: both; }
+
+p.quiet {
+  font-size: smaller;
+  color: gray; }
