@@ -32,3 +32,6 @@ body {
 p.quiet {
   font-size: smaller;
   color: gray; }
+
+p.left {
+  text-align: left; }
